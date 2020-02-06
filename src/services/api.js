@@ -3,7 +3,7 @@ export const getMonsters = (page) => {
     .then(res => res.json());
 };
 
-export const getCharacter = (name) => {
+export const getMonster = (name) => {
   return fetch(`https://xfiles-api.herokuapp.com/api/v1/characters/${name}`)
     .then(res => res.json());
 };

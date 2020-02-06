@@ -1,6 +1,18 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom';
+import Header from './header/Header';
+import MonsterList from './monsterList/MonsterList';
+import MonsterDetail from './monsterDetail/MonsterDetail';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <Router>
+      <Route path="/" component = {Header} />
+      <Route exact path="/" component={MonsterList} />
+      <Route path="/character/:name" component = {MonsterDetail} />
+    </Router>
+  );
 }
-  
