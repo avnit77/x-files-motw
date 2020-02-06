@@ -6,6 +6,7 @@ import { useMonster } from '../../hooks/motw';
 
 const MonsterDetail = ({ match }) => {
   const { selectedMonster } = useMonster(match.params.name);
+  console.log(selectedMonster, 'selected Monster');
 
   return (
     <div className={styles.MonsterDetail}>

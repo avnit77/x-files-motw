@@ -30,7 +30,7 @@ export const useMonster = name => {
 
   useEffect(() => {
     getMonster(name)
-      .then(monster => setSelectedMonster(monster));
+      .then(monster => setSelectedMonster(monster[0]));
   }, [name]);
 
   return { selectedMonster };
