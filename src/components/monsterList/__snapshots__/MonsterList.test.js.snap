@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MonsterList component matches a snapshot 1`] = `
+<div
+  className="MonsterList"
+>
+  <div
+    className="page"
+  >
+    <button
+      onClick={[Function]}
+      value="prev"
+    >
+      Prev
+    </button>
+    <span>
+       Page 
+      1
+       
+    </span>
+    <button
+      onClick={[Function]}
+      value="next"
+    >
+      Next
+    </button>
+  </div>
+  <ul />
+</div>
+`;

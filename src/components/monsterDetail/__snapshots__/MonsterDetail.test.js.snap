@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MonsterDetail component matches a snapshot 1`] = `
+<div
+  className="MonsterDetail"
+>
+  <h1 />
+  <img />
+  <ul>
+    <li>
+      Description: 
+    </li>
+    <li>
+      Status: 
+    </li>
+    <li>
+      Portrayed By: 
+    </li>
+  </ul>
+</div>
+`;
